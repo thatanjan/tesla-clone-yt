@@ -1,0 +1,26 @@
+/* sm=600 */
+/* md=900 */
+/* lg=1200 */
+/* xl=1600 */
+
+@media screen and (min-width: 600px) {
+	.section__action__btn {
+		max-width: 30rem;
+		padding: 1.5rem;
+		flex-basis: 40%;
+	}
+
+	.section__action__container {
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.section__action__container {
+		width: 70%;
+	}
+
+	.footer ul {
+		width: 70%;
+	}
+}
