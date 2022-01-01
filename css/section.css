@@ -1,3 +1,8 @@
+#fullpage.no-scroll {
+	overflow-y: hidden;
+	max-height: 100vh;
+}
+
 .section {
 	background-repeat: no-repeat;
 	background-size: cover;

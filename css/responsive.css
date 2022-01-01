@@ -24,3 +24,40 @@
 		width: 70%;
 	}
 }
+
+@media screen and (min-width: 1200px) {
+	.header__nav__btn {
+		display: inline-block;
+	}
+
+	.header__left {
+		padding: 0 2rem;
+		margin: 0 3rem;
+	}
+
+	.header__right {
+		margin: auto 2rem;
+	}
+
+	.link__in__middle {
+		display: none;
+	}
+
+	.section__action__container {
+		width: 60%;
+	}
+
+	.footer ul {
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+	.footer ul {
+		width: 40%;
+	}
+
+	.section__action__container {
+		width: 50%;
+	}
+}
